@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+
+html {
+	margin:0;
+	padding:0;
+}
+.navbar-brand {
+
+	font-size: 16px!important;
+	letter-spacing: 2px;
+}
+.navbar-header a {
+	font-size: 38px;
+}
+
+.navbar-right {
+	margin-top: 20px;
+	letter-spacing: 1px;
+}
+#hero { 
+  background: url(../img/stars.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+
+}
+body img {
+	width: 100%;
+}
+#hero h1,
+#canyon h1, 
+#hero h3,
+#canyon h3,
+#hero h2,
+#canyon h2 {
+	color: #fff!important;
+	text-transform:uppercase;
+	letter-spacing: 3px;
+
+}
+#hero h3,
+#canyon h3 {
+	font-size: 14px;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+	padding-bottom: 15px;
+	color: #fff;
+}
+#hero h1,
+#canyon h1 {
+	font-family: 'Baskerville', serif;
+	text-transform: none;
+	color: #fff;
+}
+#hero h2,
+#canyon h2 {
+	font-size: 16px;
+}
+button {
+	color: #fff;
+	background:none;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	border-radius: 3px;
+	padding: 10px 20px;
+	letter-spacing:1px;
+	margin-top: 8%;
+}
+.hero-text {
+	margin-top: 8%;
+
+}
+#hero ul {
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+
+}
+#hero li {
+	display: inline-block;
+
+}
+#hero a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight:500;
+}
+.navbar {
+  background: none;
+  border: none;
+}
+#opening,
+#featured {
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+	line-height: 24px;
+}
+#opening {
+	margin: 0px 15px 40px 15px;
+}
+#opening h2,
+#featured > h2 {
+	margin: 80px 0px 40px 0px;
+	text-align: center;
+	font-family: 'Baskerville', serif;
+	font-size: 22px;
+	font-weight: 600;
+}
+#opening p {
+	font-size: 13px;
+	color: #636363;
+}
+
+#canyon {
+  background: url(../img/canyon.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+#canyon-text {
+	padding-top: 8%;
+}
+#featured p {
+	font-size: 13px;
+	color: #636363;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+#featured {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+} 
+.img-caption {
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	max-width: 350px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 20px; 
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.img-caption h2 {
+	text-transform: none;
+	margin:0;
+	font-family: 'Baskerville', serif;
+	font-size: 16px;
+
+}
+
+.img-caption h3 {
+	font-size: 14px;
+	padding: 15px 0px;
+}
+footer button {
+	color: #636363;
+	border: 1px solid #636363;
+}
+footer {
+	text-align: center;
+	padding-bottom: 70px;
+}
+@media screen and (min-width: 500px) {
+	.two-col {
+       -moz-column-count: 2;
+       -moz-column-gap: 20px;
+       -webkit-column-count: 2;
+       -webkit-column-gap: 20px;
+}
+.img-caption h2 {
+	font-size: 22px;
+}
+.navbar-brand {
+	margin-top: 20px;
+	padding-left: 40px;
+}
+#hero h1 {
+	font-size:80px;
+}
+
+}
