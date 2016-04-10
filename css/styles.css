@@ -23,7 +23,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 1000px;
+  height:600px;
   text-align: center;
 
 }
@@ -126,7 +126,7 @@ button {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 700px;
+  height: 500px;
   text-align: center;
 }
 #canyon-text {
@@ -192,6 +192,12 @@ footer {
 } 
 h1 {
 	font-size:80px;
+}
+#hero {
+	height: 1000px;
+}
+#canyoun {
+	height: 700px;
 }
 
 }
