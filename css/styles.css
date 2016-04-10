@@ -23,7 +23,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 700px;
+  height: 1000px;
   text-align: center;
 
 }
@@ -87,7 +87,7 @@ button {
 #hero a {
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 13px;
 	font-weight:500;
 }
 .navbar {
@@ -103,17 +103,20 @@ button {
 }
 #opening {
 	margin: 0px 15px 40px 15px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 100px;
 }
 #opening h2,
 #featured > h2 {
 	margin: 80px 0px 40px 0px;
 	text-align: center;
 	font-family: 'Baskerville', serif;
-	font-size: 22px;
+	font-size: 28px;
 	font-weight: 600;
 }
 #opening p {
-	font-size: 13px;
+	font-size: 16px;
 	color: #636363;
 }
 
@@ -123,14 +126,14 @@ button {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 600px;
+  height: 700px;
   text-align: center;
 }
 #canyon-text {
 	padding-top: 8%;
 }
 #featured p {
-	font-size: 13px;
+	font-size: 16px;
 	color: #636363;
 	text-align: center;
 	margin-bottom: 50px;
