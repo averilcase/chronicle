@@ -116,7 +116,7 @@ button {
 	font-weight: 600;
 }
 #opening p {
-	font-size: 16px;
+	font-size: 14px;
 	color: #636363;
 }
 
@@ -189,8 +189,8 @@ footer {
 .navbar-brand {
 	margin-top: 20px;
 	padding-left: 40px;
-}
-#hero h1 {
+} 
+h1 {
 	font-size:80px;
 }
 
